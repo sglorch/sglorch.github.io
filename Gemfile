@@ -7,7 +7,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem 'jekyll-gist'
   gem 'jekyll-sitemap'
-  gem "jekyll-github-metadata"
+  #gem "jekyll-github-metadata"
   gem 'jekyll-target-blank'
 end
 
