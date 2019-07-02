@@ -17,3 +17,9 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  #https://github.com/bdesham/reading_time
+  - jekyll-gist #https://github.com/jekyll/jekyll-gist
+  #https://github.com/jekyll/jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-target-blank
+  - jekyll-sitemap
