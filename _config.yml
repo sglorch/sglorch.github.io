@@ -1,14 +1,14 @@
 title:             Stefan Glorch
-email:             stefan.glorch@gym-hennef.de
-description:       
-author:            Start Bootstrap
+email:             info@sglorch.de
+description:
+author:            Stefan Glorch
 baseurl:           ""
-url:               "https://sglorch.me"
+url:               "https://sglorch.de"
 
 # Social Profiles
-twitter_username:  
+twitter_username:
 github_username:   sglorch
-facebook_username: 
+facebook_username:
 
 # Build settings
 markdown:          kramdown
