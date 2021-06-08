@@ -23,3 +23,5 @@ plugins:
   #- jekyll-github-metadata
   - jekyll-target-blank
   - jekyll-sitemap
+sass:
+  style: compressed
