@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   #gem "jekyll-github-metadata"
   gem 'jekyll-target-blank'
+  gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
