@@ -1,9 +1,9 @@
 {
-   "title":"Clean Blog Jekyll",
-   "name":"startbootstrap-clean-blog-jekyll",
-   "version":"4.0.5",
-   "description":"Clean Blog is a Medium inspired blog theme for Bootstrap.",
-   "keywords":[
+   "title": "Clean Blog Jekyll",
+   "name": "startbootstrap-clean-blog-jekyll",
+   "version": "4.0.5",
+   "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+   "keywords": [
       "css",
       "sass",
       "html",
@@ -11,29 +11,30 @@
       "theme",
       "template"
    ],
-   "homepage":"https://startbootstrap.com/template-overviews/clean-blog",
-   "bugs":{
-      "url":"https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues",
-      "email":"feedback@startbootstrap.com"
+   "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
+   "bugs": {
+      "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues",
+      "email": "feedback@startbootstrap.com"
    },
-   "license":"MIT",
-   "author":"Start Bootstrap",
-   "contributors":[
+   "license": "MIT",
+   "author": "Start Bootstrap",
+   "contributors": [
       "David Miller (http://davidmiller.io/)"
    ],
-   "repository":{
-      "type":"git",
-      "url":"https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
    },
-   "dependencies":{
-      "bootstrap":"5.0.1",
-      "font-awesome":"4.7.0",
-      "jekyll":"^3.0.0-beta1",
-      "startbootstrap-clean-blog":"6.0.3",
-      "jquery":"3.6.0"
+   "dependencies": {
+      "bootstrap": "5.0.1",
+      "font-awesome": "4.7.0",
+      "jekyll": "^3.0.0-beta1",
+      "jquery": "3.6.0",
+      "startbootstrap-clean-blog": "6.0.3",
+      "vue": "^2.6.14"
    },
-   "devDependencies":{
-      "browser-sync":"2.26.14",
-      "gulp":"4.0.2"
+   "devDependencies": {
+      "browser-sync": "2.26.14",
+      "gulp": "4.0.2"
    }
 }
