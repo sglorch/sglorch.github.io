@@ -24,6 +24,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-minifier
+  - jekyll-image-optim
 
 sass:
   style: compressed
@@ -52,3 +53,9 @@ jekyll-minifier:
   compress_js_templates: false      # Default: false
   preserve_patterns:                # Default: (empty)
   uglifier_args:                    # Default: (empty)
+
+# image_optim-jekyll-plugin customizations.
+image_optim:
+  archive_dir: "assets/full-res-img"
+  cache_file: "tmp/img-opt-cache.yml"
+  image_glob: "img/**/*.{gif,png,jpg,jpeg}"

@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-target-blank'
   gem 'jekyll-seo-tag'
   gem 'jekyll-minifier'
+  gem "jekyll-image-optim"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
