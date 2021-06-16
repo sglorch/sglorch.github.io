@@ -65,6 +65,8 @@ uncss:
     - assets/main.css
     - assets/win95.css
     - assets/98.css
+    - assets/vendor/bootstrap/css/bootstrap.min.css
+    - assets/vendor/fontawesome-free/css/all.min.css
   files:                  # html files to consider, globs are supported; default: **/*.html
     - "**/*.html"
     - "**/*.htm"
