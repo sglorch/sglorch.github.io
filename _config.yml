@@ -59,23 +59,3 @@ image_optim:
   archive_dir: "assets/full-res-img"
   cache_file: "tmp/img-opt-cache.yml"
   image_glob: "img/**/*.{gif,png,jpg,jpeg}"
-
-uncss:
-  stylesheets:            # a list of stylesheets to be processed; mandatory
-    - assets/main.css
-    - assets/win95.css
-    - assets/98.css
-    - assets/vendor/bootstrap/css/bootstrap.min.css
-    - assets/vendor/fontawesome-free/css/all.min.css
-  files:                  # html files to consider, globs are supported; default: **/*.html
-    - "**/*.html"
-    - "**/*.htm"
-  compress: true          # compress resulting css with sass; default: false
-  timeout: 30             # how long to wait for the JS to be loaded in milliseconds; default: undefined
-  banner: false           # should the output include a banner comment; default: undefined
-
-webrick:
-  headers:
-    X-Frame-Options: "sameorigin"
-    Content-Security-Policy: "default-src https:"
-
