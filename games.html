@@ -5,5 +5,13 @@ description: Status of hosted gameservers
 background: '/img/bg-about.jpg'
 ---
 <div id="statuscontainer">
-<script src= "assets/gamestatus.js" crossorigin="anonymous">
+  <script crossorigin="anonymous">
+  fetch('https://panel-api.sglorch.workers.dev/serverstatus')
+  .then(res => {
+     return res.text();
+  })
+  .then(data => {
+      $('#statuscontainer').html(data);
+  });
+  </script>
 </div>
