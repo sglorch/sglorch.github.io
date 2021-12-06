@@ -5,17 +5,4 @@ description: Status of hosted gameservers
 background: '/img/bg-about.jpg'
 ---
 <div id="statuscontainer">
-  <script crossorigin="anonymous">
-  fetch('https://panel-api.sglorch.workers.dev/serverstatus',{
-    method: 'GET',
-    accept: 'text/html',
-    mode: 'no-cors'
-})
-  .then(res => {
-     return res.text();
-  })
-  .then(data => {
-      document.getElementById('statuscontainer').innerHTML = data;
-  });
-  </script>
 </div>
