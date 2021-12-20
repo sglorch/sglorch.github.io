@@ -4,7 +4,7 @@ layout: default
 
 <!-- Page Header -->
   <header class="masthead">
-    <div id="particles-js">
+    <div id="particles-js"></div>
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -17,7 +17,6 @@ layout: default
           </div>
         </div>
       </div>
-    </div>
     </div>
     <script>
      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
@@ -54,16 +53,12 @@ layout: default
             on
             {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
         </article>
-
         <hr>
-
         {% endfor %}
-
         <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
-
       </div>
     </div>
   </div>
