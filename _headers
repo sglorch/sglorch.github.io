@@ -1,5 +1,4 @@
 /*
   X-XSS-Protection: 1
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy: policy
   Access-Control-Allow-Origin: *
