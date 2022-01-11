@@ -25,6 +25,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
   - jekyll-image-optim
+  #- jekyll-responsive-image
 
 sass:
   style: compressed
