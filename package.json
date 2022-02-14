@@ -32,6 +32,6 @@
       "jquery": "^3.6.0",
       "sass": "^1.49.7",
       "startbootstrap-clean-blog": "6.0.7",
-      "vue": "^3.2.30"
+      "vue": "^3.2.31"
    }
 }
