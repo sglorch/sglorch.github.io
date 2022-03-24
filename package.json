@@ -31,7 +31,7 @@
       "jekyll": "^3.0.0-beta1",
       "jquery": "^3.6.0",
       "sass": "^1.49.9",
-      "startbootstrap-clean-blog": "6.0.7",
+      "startbootstrap-clean-blog": "6.0.8",
       "vue": "^3.2.31"
    }
 }
