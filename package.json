@@ -30,7 +30,7 @@
       "font-awesome": "4.7.0",
       "jekyll": "^3.0.0-beta1",
       "jquery": "^3.6.0",
-      "sass": "^1.53.0",
+      "sass": "^1.54.3",
       "startbootstrap-clean-blog": "6.0.8",
       "vue": "^3.2.37"
    }
