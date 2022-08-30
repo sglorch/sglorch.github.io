@@ -29,9 +29,9 @@
       "bootstrap": "5.2.0",
       "font-awesome": "4.7.0",
       "jekyll": "3.0.0-beta1",
-      "jquery": "^3.6.1",
-      "sass": "^1.54.6",
+      "jquery": "3.6.1",
+      "sass": "1.54.6",
       "startbootstrap-clean-blog": "6.0.8",
-      "vue": "^3.2.37"
+      "vue": "3.2.37"
    }
 }
