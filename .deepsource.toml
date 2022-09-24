@@ -4,6 +4,7 @@ exclude_patterns = ["assets/vendor/**"]
 
 [[analyzers]]
 name = "javascript"
+environment = ["jquery"]
 enabled = true
 
 [[analyzers]]
